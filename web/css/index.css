@@ -1,0 +1,146 @@
+/* ----------------------------------------------- */
+/* BASIC SETUP */
+/* ----------------------------------------------- */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html,
+body {
+    background-color: #fff;
+    color: #555;
+    font-family:Khula;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+header{
+     padding:10px 0px;
+    background-image:-webkit-linear-gradient(rgba(222, 247, 246, 0.92),rgba(222, 247, 246, 0.92)),url(../images/bc.png);
+    height:100vh;
+}
+
+.row {
+    max-width:650px;
+    margin: 0px auto; 
+}
+
+
+.long-copy{
+    font-size:35px;
+    display: block;
+    text-align: center;
+    color:#28a1be;
+    font-weight:500;
+    margin-top:60px;
+    font-family:Roboto;
+    text-transform: uppercase;
+    word-spacing: 4px;
+    letter-spacing:2px; 
+}
+
+
+/* ----------------------------------------------- */
+/* HEADER */
+/* ----------------------------------------------- */
+
+.heading{
+    padding-left:22%;
+    margin-top:60px
+}
+.heading:after{
+    display:block;
+    content:"";
+    height:1px;
+    width:360px;
+    background-color: #838383;
+    margin-top:-18px
+    
+}
+
+
+.logo {
+    height: 90px;
+    float:left;
+    width: auto;
+    margin-top: 18px;
+    text-align: center;
+}
+.long_copy{
+    float:left;
+    margin-top:28px;
+    margin-left:6px;
+    font-weight:400;
+    color:#495480;
+    font-size:50px;
+}
+.short_copy{
+    display:inline-block;
+    margin-bottom:30px;
+    margin-left:10px;
+    margin-top:40px;
+    font-weight:400;
+    color:#5c5c5c;
+    font-size:35px;
+   font-weight:bold;
+}
+
+/*  BUtton  */
+
+
+
+.Button{
+    text-align:center;
+    margin-top:80px;
+   
+}
+
+
+.btn:link,
+.btn:visited{
+    display: inline-block;
+    text-decoration:none;
+    font-size:18px;
+     padding:15px 80px;
+     border:1px solid #0358cb;
+     font-family:Khula;
+     margin-right:15px;
+     transition:background-color 0.4s;
+     letter-spacing: 1px;
+}
+.btn:hover,
+.btn:active{
+    background-color: #1c54a2;
+    color:#fff;
+    border:1px solid #0358cb;
+}
+
+.bt{
+    display:inline-block;
+    text-decoration:none;
+    font-size:20px;
+    padding:8px 16px;
+    border:1px solid #0358cb;
+    font-family:Khula;
+    margin-right:15px;
+    -webkit-transition: background-color 0.4s;
+    letter-spacing: 1px;
+    color:#1c54a2;
+}
+.bt:hover,
+.bt:active{
+    background-color:#1c54a2;
+    color:#fff;
+    border:1px solid #0358cb;
+}
+
+span{
+    font-size:22px;
+    color:#312398;
+    display:inline-block;
+}
